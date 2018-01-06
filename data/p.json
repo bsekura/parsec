@@ -1,0 +1,21 @@
+{
+    "dupa": "something",
+    "fizzle":"nonsenseTron",
+    "objector":{
+        "dignle":"fingle",
+        "lol":{"oh":"offmy"}
+    },
+
+    "display": false,
+
+    "another" : {
+        "something": "other stuff",
+        "test": {
+            "shit":"value", 
+            "nested": ["lol", "kek_Stuff", {"loz":"shinkel"}, true]
+        }
+    },
+    "array":["shit", "bamboozle and x"],
+    "someother": 32,
+    "negative": -123
+}

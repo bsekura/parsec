@@ -1,0 +1,45 @@
+{
+    "cam0" : {
+        "class": "Camera",
+        "ver": 10,
+        "instance" : {
+            "pos": "10 10 10",
+            "perspective": true
+        }
+    },
+    "meshes" : {
+        "class": "Mesh",
+        "ver": 10,
+        "array" : [
+            {
+                "pos": "1 1 1",
+                "rot": "0 0 0",
+                "camera": {
+                    "class": "OrthoCamera",
+                    "ver": 10,
+                    "instance": {
+                        "zoom": 45
+                    }
+                }
+            },
+            {
+                "pos": "0 0 0",
+                "rot": "90 0 0",
+                "camera": "cam0"
+            }
+        ]
+    },
+    "transforms": {
+        "class": "Transform",
+        "ver": 10,
+        "tree" : {
+            "value": 10,
+            "parent": "",
+            "children": [
+                { 
+                    "value": 11
+                }
+            ]
+        }
+    }
+}

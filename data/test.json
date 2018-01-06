@@ -1,0 +1,11 @@
+{
+    "stuff" : 32,
+    "some_array": [ "value", 42, true, false ],
+    "object": {
+        "property": "something",
+        "array_of_objects": [
+            { "lol": 32 },
+            { "things": [ "1", 2, "really nothing" ]}
+        ]
+    }
+}

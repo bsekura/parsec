@@ -1,0 +1,28 @@
+{
+    "Camera" : {
+        "name": "cam0",
+        "ver": 10,
+        "pos": "10 10 10"
+    },
+    "Mesh": [
+        {
+            "name": "mesh0",
+            "pos": "1 1 1"
+        },
+        {
+            "name": "mesh1",
+            "pos": "2 2 2"
+        }
+    ],
+    "Scene": {
+        "name": "test",
+        "meshes": [
+            "mesh0",
+            "mesh1",
+            {
+                "name": "mesh2",
+                "pos": "0 0 0"
+            }
+        ]
+    }
+}
